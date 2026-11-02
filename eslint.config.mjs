@@ -25,6 +25,7 @@ export default tseslint.config(
         rules: {
             'no-debugger': 'off',
             'no-console': 'off',
+            '@typescript-eslint/no-explicit-any': 'error',
         },
     },
 
